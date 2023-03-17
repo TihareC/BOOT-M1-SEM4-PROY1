@@ -345,7 +345,7 @@ footer {
     margin-top: 30px;
     padding: 0;
     padding-top: 20px;
-    background-color: #bbbdc0;
+    background-color: #90949a;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -354,6 +354,7 @@ footer {
 footer .contenido {
     width: 100%;
     display: flex;
+    padding-bottom: 10px;
 }
 
 footer .contenido .enlaces {
@@ -364,11 +365,16 @@ footer .contenido .enlaces {
     margin-bottom: 10px;
 }
 
+footer .contenido .enlaces a {
+    color: #ffffff;
+}
+
 footer .contenido .enlaces img {
     width: 25px;
 }
 
 footer .barra-inferior {
+    color: #ffffff;
     border-top: 1px solid #ffffff   ;
     width: 100%;
     padding-top: 10px;
